@@ -1,0 +1,61 @@
+# Laravel storage directory
+/storage/*
+
+# Laravel bootstrap cache
+/bootstrap/cache/*
+
+# Laravel public storage symlink
+/public/storage/*
+
+# Composer dependencies
+/vendor/
+
+# NPM dependencies
+/node_modules/
+
+# Homestead
+/.homestead.yml
+/.homestead/
+
+# Laravel Mix environment file
+/.env
+
+# Testing database
+/database/testing.sqlite
+
+# IDE helper files
+_ide_helper.php
+_ide_helper_models.php
+
+# Laravel Dusk screenshot directory
+/tests/Browser/screenshots/
+
+# Laravel Dusk console logs
+/tests/Browser/console/
+
+# Laravel Passport encryption keys
+/storage/oauth-private.key
+/storage/oauth-public.key
+
+# Laravel Telescope
+/telescope/*.log
+/telescope/storage
+
+# Laravel Horizon
+/horizon/*.pid
+/horizon/supervisor.sock
+
+# Laravel Echo server
+/echo-server.json
+
+# Laravel Echo private key
+/.echo-server/*.key
+
+# Laravel Passport
+/.passport/*.key
+
+# Laravel Scout
+/.scout-queue
+
+# Sublime Text project files
+/*.sublime-workspace
