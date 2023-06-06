@@ -1,3 +1,3 @@
 #!/bin/sh
 
-docker exec -it costrad_php-fpm sh
+docker exec -it myTwitterClone_php-fpm sh
